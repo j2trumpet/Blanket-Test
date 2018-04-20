@@ -33,6 +33,4 @@ function end_page( $filename ) {
   file_put_contents( $filename, ob_get_contents() );
 }
 
-
-
 ?>
